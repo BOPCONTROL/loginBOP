@@ -59,6 +59,7 @@ function HomeScreen() {
           },
         ]}/>
       <ScrollView>
+      <Text>Lizette</Text>
       <Text style={styles.texto1}>Registro de Ganado Bovino</Text>
       <View>
         <Text value={numarete} onChangeText={(numarete) => {setArete(numarete)}} style={{fontSize: 17, fontWeight: '400', color: 'black'}}>Número de arete: </Text>
